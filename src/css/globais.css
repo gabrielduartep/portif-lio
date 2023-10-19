@@ -38,6 +38,7 @@ html {
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
+    background-color:var(--cor-fundo-azul-oceano); 
     color: var(--cor-branca);
     margin: 0 4px;
     border-radius: 50%;
@@ -53,11 +54,11 @@ html {
   }
   
   .outer-shadow {
-    box-shadow: 3px 3px #011427, -3px -3px 3px #00587b;
+    box-shadow: 3px 3px #01273e, -3px -3px 3px #014a75;
   }
   
   .inner-shadow {
-    box-shadow: inset 3px 3px 3px #375a64, inset -3px -3px 3px #629fb1;
+    box-shadow: inset 3px 3px 3px #474747, inset -3px -3px 3px #014a75;
   }
 
   .section{

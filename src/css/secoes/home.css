@@ -7,6 +7,10 @@
     letter-spacing: 2px;
 }
 
+.home .texto-home span {
+    color: var(--cor-primaria);
+  }
+
 .home .texto-home, .home .img-home {
     flex: 0 0 50%;
     /* ocupa 50% do tamanho e não faz grow nem shrink */
