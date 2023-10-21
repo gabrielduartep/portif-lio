@@ -17,9 +17,6 @@ html {
   .container {
     max-width: 1140px;
     margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
   }
   
   .row {
