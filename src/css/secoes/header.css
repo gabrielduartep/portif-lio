@@ -135,14 +135,15 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-escuro);         
-        padding: 20px;       
+        background-color: var(--cor-fundo-azul-noite);         
+        padding: 20px;    
+        border-radius: 15px;     
     }
     
     .header nav li a {
         color: var(--cor-branca);
         text-align: center;                
         padding: 20px;
-        display: block;
+        display: block;   
     }
 }
