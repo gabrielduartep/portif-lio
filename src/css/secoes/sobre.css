@@ -1,24 +1,15 @@
 /* SOBRE MIM */
-.sobre-mim .imagem-sobre-mim {    
-    max-width: 40%;
-    padding: 0 15px;
-}
 
-.sobre-mim .imagem-sobre-mim .img-box {
-    padding: 15px;
-    border-radius: 5px;
+#container-sobre-mim{
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-
-.sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
-    border-radius: 5px;
-}
-
 .sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
     padding: 0 25px;   
     align-self: center; 
+    text-align: center;
 }
 
 .informacoes-sobre-mim span{
