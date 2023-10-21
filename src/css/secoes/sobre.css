@@ -1,4 +1,10 @@
 /* SOBRE MIM */
+
+#container-sobre-mim{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 .sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
     padding: 0 25px;   
