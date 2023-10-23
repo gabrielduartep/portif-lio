@@ -24,11 +24,15 @@
 .projetos .container-projetos .projeto:hover,
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
     opacity: 0.8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .projetos .container-projetos .projeto img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     height: 100%;
 }
 
@@ -43,6 +47,8 @@
     transition: all .3s ease;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
@@ -61,5 +67,7 @@
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     bottom: 0;
 }

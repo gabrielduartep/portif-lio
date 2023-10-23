@@ -8,8 +8,11 @@
 }
 
 .habilidades .container-habilidades .informacoes{
-    max-width: 350px;
+    width: 175px;
     padding: 40px 20px;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .habilidades .container-habilidades .informacoes p,
@@ -41,4 +44,17 @@
 
 .habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
+    
+}
+
+.informacoes.javascript,
+.informacoes.mongoDb 
+{
+    align-items: center;
+}
+
+@media(max-width: 368px) { 
+    .habilidades .container-habilidades .informacoes{
+        width: 140px;
+    }
 }

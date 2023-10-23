@@ -38,8 +38,8 @@ html {
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
-    background-color:var(--cor-fundo-azul-oceano); 
-    color: var(--cor-branca);
+    background-color: var(--cor-branca); 
+    color: var(--cor-fundo-azul-noite);
     margin: 0 4px;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -54,11 +54,11 @@ html {
   }
   
   .outer-shadow {
-    box-shadow: 3px 3px #01273e, -3px -3px 3px #014a75;
+    box-shadow: 3px 3px #012d49, -3px -3px 3px #0d76b3;
   }
   
   .inner-shadow {
-    box-shadow: inset 3px 3px 3px #474747, inset -3px -3px 3px #014a75;
+    box-shadow: inset 3px 3px 3px #2c2c2c, inset -3px -3px 3px #083146;
   }
 
   .section{
