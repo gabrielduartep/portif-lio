@@ -36,7 +36,7 @@ html {
     display: inline-block;
     width: 40px;
     height: 40px;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     text-align: center;
     background-color: var(--cor-branca); 
     color: var(--cor-fundo-azul-noite);
@@ -62,7 +62,7 @@ html {
   }
 
   .section{
-    padding: 7rem 0 7rem;
+    padding: 2rem 0 2rem;
   }
   
   .section-title {
