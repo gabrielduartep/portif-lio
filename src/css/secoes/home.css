@@ -60,3 +60,9 @@
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
+
+@media(min-width: 1280px) {
+    #home{
+        padding-top: 35px;
+    }
+}
