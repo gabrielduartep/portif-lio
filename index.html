@@ -1,258 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Duarte Pereira - Desenvolvedor Frontend</title>
+    <link
+      rel="shortcut icon"
+      href="src/imagens/icone-gp.png"
+      type="image/x-icon"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gabriel Duarte Pereira - Desenvolvedor Frontend</title>
-  <link rel="shortcut icon" href="src/imagens/icone-gp.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">GP</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">GP</h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 👋,</p>
+            <h1>Sou o <span>Gabriel Pereira</span></h1>
+            <h2>Desenvolvedor Frontend Jr</h2>
+
+            <div class="redes-sociais">
+              <a
+                href="https://www.linkedin.com/in/gabriel-duarte-pereira/"
+                class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://wa.me/5561981730798?text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA!%20"
+                class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://github.com/gabrielduartep" class="outer-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/dduarte___/"
+                class="outer-shadow"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home" id="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá 👋,</p>
-          <h1>Sou o <span>Gabriel Pereira</span></h1>
-          <h2>Desenvolvedor Frontend Jr</h2>
-
-          <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/gabriel-duarte-pereira/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/5561981730798?text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA!%20" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/gabrielduartep" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/dduarte___/" class="outer-shadow"><i class="fab fa-instagram"></i></a>
           </div>
-        </div>
 
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Gabriel" />
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="src/imagens/foto-perfil.png"
+                alt="foto do perfil do Gabriel"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container" id="container-sobre-mim">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container" id="container-sobre-mim">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
         </div>
-      </div>
         <div class="informacoes-sobre-mim">
           <p>
-            <strong>Olá! Me chamo <span>Gabriel Pereira</span>  e sou um desenvolvedor frontend em
-              formação!</strong>
-              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+            <strong
+              >Olá! Me chamo <span>Gabriel Pereira</span> e sou um desenvolvedor
+              frontend em formação!</strong
+            >
+            Gosto MUITO da área de tecnologia, e tenho certeza que posso
+            contribuir em qualquer time com as minhas habilidades.
           </p>
 
           <p>
-           Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+            Estou sempre me desafiando coim novos projetos e participando de
+            comunidades de programação para buscar feedback de outros
+            desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+            pessoas com o que eu já aprendi. 😁
           </p>
 
-          <p>
-            Ah, gosto de jogos, filmes, séries. 
-          </p>
+          <p>Ah, gosto de jogos, filmes, séries.</p>
 
           <div class="botoes">
-            <a target="_blank" href="src/arquivos/Curriculo - Gabriel Pereira.pdf" class="botao outer-shadow">Veja meu CV</a>
+            <a
+              target="_blank"
+              href="src/arquivos/Curriculo - Gabriel Pereira.pdf"
+              class="botao outer-shadow"
+              >Veja meu CV</a
+            >
           </div>
-        </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
         </div>
       </div>
+    </section>
 
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
           </div>
-          <h3>JavaScript</h3>
         </div>
 
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
           </div>
-          <h3>HTML5</h3>
-        </div>
 
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
           </div>
-          <h3>CSS3</h3>
-        </div>
 
-        <div class="informacoes mySql">
-          <div class="logo">
-            <i class="devicon devicon-mysql-plain" id="mysql"></i>
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
           </div>
-          <h3>MySQL</h3>
-        </div>
 
-        <div class="informacoes mongoDb">
-          <div class="logo">
-            <i class="devicon devicon-mongodb-plain" id="mongodb"></i>
+          <div class="informacoes mySql">
+            <div class="logo">
+              <i class="devicon devicon-mysql-plain" id="mysql"></i>
+            </div>
+            <h3>MySQL</h3>
           </div>
-          <h3>MongoDB</h3>
-        </div>
 
-        <div class="informacoes dotnetcore">
-          <div class="logo">
-            <i class="devicon devicon-dotnetcore-plain" id="dotnetcore"></i>
+          <div class="informacoes mongoDb">
+            <div class="logo">
+              <i class="devicon devicon-mongodb-plain" id="mongodb"></i>
+            </div>
+            <h3>MongoDB</h3>
           </div>
-          <h3>.NET</h3>
-        </div>
 
-        <div class="informacoes python">
-          <div class="logo">
-            <i class="devicon devicon-python-plain" id="python"></i>
+          <div class="informacoes dotnetcore">
+            <div class="logo">
+              <i class="devicon devicon-dotnetcore-plain" id="dotnetcore"></i>
+            </div>
+            <h3>.NET</h3>
           </div>
-          <h3>Python</h3>
-        </div>
 
-        <div class="informacoes csharp">
-          <div class="logo">
-            <i class="devicon devicon-csharp-plain" id="c#"></i>
+          <div class="informacoes python">
+            <div class="logo">
+              <i class="devicon devicon-python-plain" id="python"></i>
+            </div>
+            <h3>Python</h3>
           </div>
-          <h3>C#</h3>
-        </div>
 
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
+          <div class="informacoes csharp">
+            <div class="logo">
+              <i class="devicon devicon-csharp-plain" id="c#"></i>
+            </div>
+            <h3>C#</h3>
           </div>
-          <h3>GitHub</h3>
-        </div>
 
-        <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
           </div>
-          <h3>Git</h3>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-        <div class="projeto">        
-          <a href="https://gabrielduartep.github.io/projeto-one-piece/">
-            <img src="src/imagens/projeto-one-piece-web.png" alt="Projeto One Piece" />
-            <h3>Projeto One Piece</h3>
-            <div class="informacoes-projeto">          
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <a href="https://github.com/gabrielduartep/projeto-one-piece/">🔗 Ver no <strong>GitHub</strong></a>
-            </div>     
-          </a>
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
         </div>
 
-        <div class="projeto">        
-          <a href="https://gabrielduartep.github.io/projeto-pokecards/">
-            <img src="src/imagens/projeto-pokeCards-web.png" alt="Projeto Pokecards" />
-            <h3>Projeto Pokecards</h3>
-            <div class="informacoes-projeto">          
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+        <div class="container-projetos">
+          <div class="projeto">
+            <a href="https://gabrielduartep.github.io/projeto-one-piece/">
+              <img
+                src="src/imagens/projeto-one-piece-web.png"
+                alt="Projeto One Piece"
+              />
+              <h3>Projeto One Piece</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no <strong>GitHubPages</strong></p>
+              </div>
+            </a>
+            <div class="verGit">
+              <a href="https://github.com/gabrielduartep/projeto-one-piece">🔗 Ver no <strong>GitHub</strong></a>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <a href="https://gabrielduartep.github.io/projeto-pokecards/">
+              <img
+                src="src/imagens/projeto-pokeCards-web.png"
+                alt="Projeto Pokecards"/>
+              <h3>Projeto Pokecards</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no <strong>GitHubPages</strong></p>
+              </div>
+            </a>
+            <div class="verGit">
               <a href="https://github.com/gabrielduartep/projeto-pokecards">🔗 Ver no <strong>GitHub</strong></a>
-            </div>      
-          </a>          
-        </div>
-
-        <div class="projeto">     
-          <a href="https://gabrielduartep.github.io/projeto-x-men/">
-            <img src="src/imagens/projeto-x-men-web.png" alt="Projeto X-Men" />
-            <h3>Projeto X-Men</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <a href="https://github.com/gabrielduartep/projeto-x-men">🔗 Ver no <strong>GitHub</strong></a>
             </div>
-          </a>   
-        </div>
-       
-        <div class="projeto">     
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto em andamento</h3>
-            <div class="informacoes-projeto">
-              <p>Lorem ipsum</p>
-              <a href="https://github.com/gabrielduartep/D">🔗 Ver no <strong>GitHub</strong></a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://gabrielduartep.github.io/projeto-x-men/">
+              <img
+                src="src/imagens/projeto-x-men-web.png"
+                alt="Projeto X-Men"
+              />
+              <h3>Projeto X-Men</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no <strong>GitHubPages</strong></p>
+              </div>
+            </a>
+            <div class="verGit">
+              <a  href="https://github.com/gabrielduartep/projeto-x-men">🔗 Ver no <strong>GitHub</strong></a>
             </div>
-          </a>   
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com">
+              <img
+                src="https://via.placeholder.com/515X700"
+                alt="Nome do projeto"
+              />
+              <h3>Projeto em andamento</h3>
+              <div class="informacoes-projeto">
+                <p> O projeto ainda está sendo desenvolvido</p>
+                <p>🔗 Ver no <strong>GitHubPages</strong></p>
+              </div>
+            </a>
+            <div class="verGit">
+              <a href="https://github.com/gabrielduartep">🔗 Ver no <strong>GitHub</strong></a>
+            </div>
+          </div>
+
         </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!</h2>
-      <div class="redes-sociais">
-        <a href="https://www.linkedin.com/in/gabriel-duarte-pereira/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://wa.me/5561981730798?text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA!%20" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://github.com/gabrielduartep" class="outer-shadow"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/dduarte___/" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+    <footer class="footer">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/gabriel-duarte-pereira/"
+            class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://wa.me/5561981730798?text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA!%20"
+            class="outer-shadow"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://github.com/gabrielduartep" class="outer-shadow"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/dduarte___/" class="outer-shadow"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="./src/js/index.js"></script>
-</body>
-
+    </footer>
+    <script src="./src/js/index.js"></script>
+  </body>
 </html>
